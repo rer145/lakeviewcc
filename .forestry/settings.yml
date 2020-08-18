@@ -4,8 +4,25 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: src/pages
+  label: Pages
+  create: all
+  match: "**/*"
+- type: document
+  path: src/pages/index.js
+  label: Home
+  match: "**/*"
 - type: heading
-  label: Golf Menu
+  label: Golf
+- type: heading
+  label: Clubhouse
+- type: heading
+  label: Membership
+- type: heading
+  label: Contact
+- type: heading
+  label: Member Portal
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
