@@ -1,4 +1,9 @@
 ---
 label: Full Width Page
 hide_body: false
-fields: []
+fields:
+- name: content
+  type: text
+  config:
+    required: false
+  label: Content
