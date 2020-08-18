@@ -12,7 +12,6 @@ sections:
 - type: document
   path: src/pages/index.js
   label: Home
-  match: "**/*"
 - type: heading
   label: Golf
 - type: heading
